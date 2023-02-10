@@ -41,7 +41,7 @@
 }
 .slider img {
   max-width: 17em;
-  transition: 0.5s;
+  transition: 0.3s;
   padding: 1em;
 }
 .slider img:hover {
@@ -116,10 +116,10 @@ hr {
 .messageAnimation .avatar img {
   width: 100%;
   height: auto;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .messageAnimation .avatar img:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=main.css.map */
