@@ -59,11 +59,18 @@
   height: 30em;
 }
 
-.subtitle {
-  color: #E5E5E5;
+.subtitle_padding {
   padding: 2em;
+}
+
+.subtitle_margin {
   margin-bottom: 2em;
-  margin-left: 8%;
+  margin-left: 5%;
+}
+
+.subtitle {
+  font-size: 17px;
+  color: #E5E5E5;
 }
 
 hr {
@@ -74,9 +81,28 @@ hr {
   margin-top: 0;
 }
 
+.mainBlock__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
+  height: 68%;
+}
+
 .mainBlock {
   background: url("../../img/main/mainImg.png") 0 0/100% no-repeat;
-  height: 40em;
+  height: 42em;
+}
+.mainBlock .img {
+  filter: brightness(40%);
+}
+
+.mainBlock__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
+  height: 68%;
 }
 
 @keyframes float {
@@ -95,13 +121,13 @@ hr {
 }
 .messageAnimation {
   display: flex;
-  width: 95%;
-  height: 40%;
-  display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  width: 10%;
+  height: 15%;
+  margin-left: 87%;
 }
 .messageAnimation .avatar {
+  display: none;
   align-self: flex-end;
   position: fixed;
   width: 80px;
@@ -120,6 +146,30 @@ hr {
 }
 .messageAnimation .avatar img:hover {
   transform: scale(1.05);
+}
+
+.title {
+  color: #E5E5E5;
+  font-size: 34;
+}
+
+.fadeIn {
+  display: none;
+}
+
+.fadeAnimation {
+  display: none;
+  transform: translateY(-150%);
+  animation: ani 1s forwards;
+}
+
+@keyframes ani {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
