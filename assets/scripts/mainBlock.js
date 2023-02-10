@@ -1,5 +1,7 @@
 $(function () {
-    $('.fadeIn').fadeIn(2400);
-    $('.fadeAnimation').fadeIn(2600);
+    $('#mainTitle').fadeIn(2400);
+    $('#subtitleAnimation').fadeIn(2800);
     $('.avatar').fadeIn(2400);
+    $('.mainBlock__btn').fadeIn(3200);
+
 })

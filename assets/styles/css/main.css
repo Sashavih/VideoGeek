@@ -87,7 +87,7 @@
     transform: translateY(0);
   }
 }
-.fadeIn {
+.none {
   display: none;
 }
 
