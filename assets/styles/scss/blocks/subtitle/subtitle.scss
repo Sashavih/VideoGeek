@@ -1,9 +1,8 @@
-@import '../variables.scss';
+@import './_padding/subtitle_padding.scss';
+@import './_margin/subtitle_margin.scss';
 
 .subtitle {
+    font-size: 17px;
     color: $lightGray;
-    padding: 2em;
-    margin-bottom: 2em;
-    margin-left: 8%;
 
 }

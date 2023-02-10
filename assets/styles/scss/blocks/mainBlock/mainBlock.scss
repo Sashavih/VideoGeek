@@ -1,7 +1,10 @@
-@import './__item/mainBlock__item.scss';
+@import './__box/mainBlock__box.scss';
 
 .mainBlock {
     background: url('../../img/main/mainImg.png')0 0 / 100% no-repeat;
-    height: 40em;
+    height: 42em;
 
+    .img {
+        filter: brightness(40%);
+    }
 }
