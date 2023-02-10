@@ -1,0 +1,50 @@
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-20px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+}
+
+.messageAnimation {
+    display: flex;
+    width: 95%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+    .avatar {
+        align-self: flex-end;
+        position: fixed;
+        width: 80px;
+        height: 80px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+        animation: float 4s ease-in-out infinite;
+
+        img {
+
+            width: 100%;
+            height: auto;
+            transition: 0.3s;
+
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+    }
+}
