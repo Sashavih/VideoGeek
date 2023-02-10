@@ -122,4 +122,30 @@ hr {
   transform: scale(1.05);
 }
 
+@font-face {
+  font-family: "GT Walsheim v2 Manual";
+  src: url("/assets/fonts/GTWalsheimv2Manual-Black.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Walsheim v2 Manual";
+  src: url("/assets/fonts/GTWalsheimv2Manual-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Walsheim v2 Manual";
+  src: url("/assets/fonts/GTWalsheimv2Manual-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  background-color: #1F1F1F;
+  font-family: "GT Walsheim v2 Manual", sans-serif;
+}
+
 /*# sourceMappingURL=main.css.map */
