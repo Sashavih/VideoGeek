@@ -72,4 +72,47 @@ hr {
   height: 1px;
 }
 
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+.container {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.avatar {
+  margin: 5em 7em 0 0;
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 4s ease-in-out infinite;
+}
+.avatar img {
+  width: 100%;
+  height: auto;
+  transition: 0.3s;
+}
+.avatar img:hover {
+  transform: scale(1.03);
+}
+
 /*# sourceMappingURL=main.css.map */
