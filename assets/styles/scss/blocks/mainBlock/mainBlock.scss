@@ -1,10 +1,10 @@
-@import './__box/mainBlock__box.scss';
+@import "./__box/mainBlock__box.scss";
 
 .mainBlock {
-    background: url('../../img/main/mainImg.png')0 0 / 100% no-repeat;
-    height: 42em;
+  background: url("../../img/main/mainImg.png") 0 0 / 100% no-repeat;
+  height: 42em;
 
-    .img {
-        filter: brightness(40%);
-    }
+  .img {
+    filter: brightness(40%);
+  }
 }
