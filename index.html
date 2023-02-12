@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -16,29 +16,36 @@
 <body>
     <!--header -->
     <header class="header">
-        <a href="#" class="header__logo-link"></a><img src="./assets/img/logo/videoGeek.png" alt="VideoGeek logo."
-            class="header__logo">
-        <ul class="header__list">
-            <li class="header__item"><a href="#" class="header__link">Портфолио</a></li>
-            <li class="header__item"><a href="#" class="header__link">О студии</a></li>
-            <li class="header__item"><a href="#" class="header__link">Услуги</a></li>
-            <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
-        </ul>
-        <ul class="header__contacts">
-            <li class="header__contacts-item">videogeek@gmail.com</li>
-            <li class="header__contacts-item">+7 999-99-99</li>
-        </ul>
-        <button class="header__button">оставить заявку</button>
+        <a href="#" class="header__logo-link">
+            <img src="./assets/img/logo/videoGeek.png" alt="VideoGeek logo." class="header__logo">
+        </a>
+        <div class="header__container">
+            <ul class="header__list">
+                <li class="header__item"><a href="#" class="header__link">портфолио</a></li>
+                <li class="header__item"><a href="#" class="header__link">О студии</a></li>
+                <li class="header__item"><a href="#" class="header__link">Услуги</a></li>
+                <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+                <li class="header__link">
+                    <ul class="header__contacts">
+                        <li class="header__contacts-item">videogeek@gmail.com</li>
+                        <li class="header__contacts-item">+7 999-99-99</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="header__btn-container">
+                <button class="header__button btn-main">оставить заявку</button>
+            </div>
+        </div>
     </header>
     <!--main -->
     <article class="mainBlock">
-        <hr />
+        <!-- <hr /> -->
         <div class="mainBlock__box subtitle_margin subtitle_padding">
             <h1 class="title none" id="mainTitle">ВИДЕОПРОДАКШН <br />ПОЛНОГО ЦИКЛА</h1>
             <h2 class="subtitle fadeAnimation" id="subtitleAnimation">СОЗДАЕМ ВИДЕОКОНТЕНТ ДЛЯ РЕШЕНИЯ<br /> ВАШИХ
                 БИЗНЕС ЗАДАЧ</h2>
             <div class="mainBlock__btn fadeAnimation">
-                <button type="button" class="btn_color ">Привееееетик</button>
+                <button type="button" class="btn_color btn-main">Привееееетик</button>
                 <button type="button" class="btn_border ">Дарооова</button>
             </div>
         </div>

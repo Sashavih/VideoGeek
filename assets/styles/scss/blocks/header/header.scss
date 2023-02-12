@@ -1,0 +1,15 @@
+@import "./__list/_list";
+@import "./__button/_button";
+@import "./__item/_item";
+@import "./__link/_link";
+@import "./__logo/_logo";
+@import "./__contacts/_contacts";
+@import "./__btn-container/_btn-container";
+@import "./__container/_container";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 0.5px solid white;
+}

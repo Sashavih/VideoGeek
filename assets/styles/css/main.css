@@ -164,29 +164,114 @@ hr {
 }
 
 @font-face {
-  font-family: "GT Walsheim v2 Manual";
-  src: url("/assets/fonts/GTWalsheimv2Manual-Black.woff2") format("woff2");
-  font-weight: 800;
+  font-family: "RockStar";
+  src: url(/assets/fonts/RockStar.woff2) format("woff2");
+  font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "GT Walsheim v2 Manual";
-  src: url("/assets/fonts/GTWalsheimv2Manual-Bold.woff2") format("woff2");
+  font-family: "RockStar";
+  src: url(/assets/fonts/RockStar-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RockStar";
+  src: url(/assets/fonts/RockStar-ExtraBold.woff2) format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "GT Walsheim v2 Manual";
-  src: url("/assets/fonts/GTWalsheimv2Manual-Regular.woff2") format("woff2");
+  font-family: "Graphik LCG";
+  src: url(/assets/fonts/GraphikLCG-Regular.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #1F1F1F;
-  font-family: "Grafik LCG", sans-serif;
+  font-family: "RockStar", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #E5E5E5;
+}
+
+.btn-main {
+  padding: 0.7rem 1.5rem;
+  background-color: #8350F6;
+  font-family: inherit;
+  border: 1px solid #8350F6;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: inherit;
+  transition: background-color 0.3s linear;
+  cursor: pointer;
+}
+.btn-main:hover {
+  background-color: transparent;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header__button {
+  display: block;
+  font-family: inherit;
+}
+
+.header__item {
+  margin: 0.5rem;
+  text-transform: uppercase;
+  transition: color 0.3s linear;
+  font-family: inherit;
+}
+
+.header__link {
+  padding: 0.5rem;
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+.header__link:hover {
+  border-bottom: 1px solid #8350F6;
+}
+
+.header__logo {
+  width: 4rem;
+  height: auto;
+}
+
+.header__contacts {
+  text-align: center;
+  list-style-type: none;
+}
+
+.header__btn-container {
+  margin: 1rem;
+}
+
+.header__container {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 0.5px solid white;
 }
 
 /*# sourceMappingURL=main.css.map */
