@@ -1,5 +1,40 @@
 .btn_border {
     padding: 0.7rem 1.5rem;
     border-radius: 3px;
+    border: 1px solid $lightGray;
     cursor: pointer;
+    transition: color 0.5s, transform 0.2s;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+    color: $lightGray;
+
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 0;
+        height: 100%;
+        background: #8e44ad;
+        z-index: -1;
+        -webkit-transition: width 150ms ease-in-out;
+        transition: width 150ms ease-in-out;
+    }
+
+    &:hover {
+        color: #fff;
+    }
+
+    &:hover:after {
+        width: 110%;
+    }
 }
