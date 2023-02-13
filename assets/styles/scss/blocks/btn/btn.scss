@@ -1,2 +1,11 @@
 @import './_border/btn_border.scss';
-@import './_color/btn_color.scss';
+
+.btn {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+}

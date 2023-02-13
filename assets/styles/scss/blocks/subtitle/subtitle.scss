@@ -1,8 +1,9 @@
-@import './_padding/subtitle_padding.scss';
 @import './_margin/subtitle_margin.scss';
 
 .subtitle {
-    font-size: 17px;
+    font-size: 22px;
+    font-weight: 700;
     color: $lightGray;
+    text-transform: uppercase;
 
 }

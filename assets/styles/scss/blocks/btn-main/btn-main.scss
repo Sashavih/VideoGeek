@@ -1,13 +1,11 @@
 .btn-main {
-  padding: 0.7rem 1.5rem;
   background-color: $purple;
   font-family: inherit;
   border: 1px solid $purple;
   border-radius: 3px;
-  text-transform: uppercase;
   color: inherit;
   transition: background-color 0.3s linear;
-  cursor: pointer;
+
 
   &:hover {
     background-color: transparent;
