@@ -132,9 +132,8 @@ hr {
 .messageAnimation {
   display: flex;
   flex-direction: row;
-  width: 10%;
-  height: 15%;
   margin-left: 87%;
+  border: 1px solid red;
 }
 .messageAnimation .avatar {
   display: none;
