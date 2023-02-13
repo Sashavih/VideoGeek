@@ -1,10 +1,14 @@
 @import "./__box/mainBlock__box.scss";
+@import "./__btn//mainBlock__btn.scss";
 
 .mainBlock {
-  background: url("../../img/main/mainImg.png") 0 0 / 100% no-repeat;
-  height: 42em;
+    background: url("../../img/main/mainImg.png") 0 0 / 100% no-repeat;
+    height: 42em;
+    box-sizing: border-box;
+    margin-top: 0;
 
-  .img {
-    filter: brightness(40%);
-  }
+
+    .img {
+        filter: brightness(40%);
+    }
 }

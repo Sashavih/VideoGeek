@@ -19,9 +19,10 @@
     display: flex;
     flex-direction: row;
     margin-left: 87%;
-    border: 1px solid red;
+
 
     .avatar {
+        cursor: pointer;
         display: none;
         align-self: flex-end;
         position: fixed;
