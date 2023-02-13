@@ -4,9 +4,8 @@
 .mainBlock {
     background: url("../../img/main/mainImg.png") 0 0 / 100% no-repeat;
     height: 56em;
-    box-sizing: border-box;
     margin-top: 0;
-
+    background-size: cover;
 
     .img {
         filter: brightness(40%);
