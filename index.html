@@ -37,7 +37,7 @@
                 </li>
             </ul>
             <div class="header__btn-container">
-                <button class="header__button btn-main btn">оставить заявку</button>
+                <button class="header__button btn-main btn" data-toggle="modal">оставить заявку</button>
             </div>
             </hr>
         </div>
@@ -126,7 +126,19 @@
         </div>
 
     </article>
-
+    <!--форма-->
+    <article class="formBlock">
+        <h2 class="subtitle ">отправить тз</h2>
+        <form class="form">
+            <input type="text" name="text" class="form__item" />
+            <input type="tel" name="tel" class="form__item" />
+            <input type="email" name="email" class="form__item" />
+            <input type="file" name="file">
+            <textarea rows="5" class="form__item" name="comment"></textarea>
+            <button type="submit" id="btnSendForm" class="btn btn-form">отправить</button>
+            <p>Нажимая кнопку «Отправить», вы даете согласие с нашей Политикой обработки персональных данных</p>
+        </form>
+    </article>
 
     <!--заявка2 -->
     <!--футур -->
@@ -134,6 +146,8 @@
     <script src="./assets/scripts/slick.min.js"></script>
     <script src="./assets/scripts/slider.js"></script>
     <script src="./assets/scripts/mainBlock.js"></script>
+    <script src="./assets/scripts/modal.js"></script>
+    <script src="./assets/scripts/formModal.js"></script>
 </body>
 
 </html>
