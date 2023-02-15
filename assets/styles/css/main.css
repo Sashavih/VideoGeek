@@ -460,11 +460,11 @@ body {
   }
 }
 .description__title {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .description {
-  padding: 4rem 8rem;
+  padding: 5rem 8rem;
 }
 
 .modal__backdrop {
