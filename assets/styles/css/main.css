@@ -553,6 +553,7 @@ body {
 }
 .form .form__item {
   border: 1px solid #e5e5e5;
+  border-radius: 3px;
   background-color: #1f1f1f;
   width: 80%;
   padding: 1em;
