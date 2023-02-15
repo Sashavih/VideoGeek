@@ -577,7 +577,7 @@ body {
 
 .form-request__btn {
   padding: 1rem 4rem;
-  width: 70%;
+  width: 20%;
   font-size: 14px;
 }
 
@@ -588,7 +588,7 @@ body {
 }
 
 .form-request {
-  padding: 8rem 30rem;
+  margin: 9em auto 9em auto;
   text-align: center;
 }
 
