@@ -1,0 +1,12 @@
+.description__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  grid-gap: 1.5rem;
+  list-style-type: none;
+}
+
+@media screen and (max-width: $tablet-width) {
+  .description__container {
+    grid-gap: 0.5rem;
+  }
+}

@@ -1,7 +1,15 @@
-$gray: #1F1F1F;
+//colors
+
+$gray: #1f1f1f;
 $dark: #131313;
-$lightGray: #E5E5E5;
-$darkGray: #D7D6D6;
-$purple: #8350F6;
-$green: #07F2B4;
-$pink: #CD0056;
+$lightGray: #e5e5e5;
+$darkGray: #d7d6d6;
+$purple: #8350f6;
+$green: #07f2b4;
+$pink: #cd0056;
+
+// Viewports
+
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
