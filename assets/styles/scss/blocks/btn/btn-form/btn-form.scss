@@ -1,0 +1,14 @@
+.btn-form {
+    background-color: $pink;
+    font-family: inherit;
+    border: 1px solid $pink;
+    border-radius: 3px;
+    margin: 1em auto 1.5em auto;
+    width: 60%;
+    color: inherit;
+    transition: background-color 0.3s linear;
+
+    &:hover {
+        background-color: transparent;
+    }
+}
