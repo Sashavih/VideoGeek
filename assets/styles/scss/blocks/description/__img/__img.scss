@@ -1,4 +1,19 @@
 .description__img {
   max-width: 23rem;
   max-height: 7rem;
+  display: inline-block;
+  overflow: hidden;
+
+
+  img {
+    display: block;
+    transition: 1s;
+
+
+    &:hover {
+
+      transform: scale(1.09);
+      filter: brightness(60%)
+    }
+  }
 }

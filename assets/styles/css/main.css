@@ -400,12 +400,13 @@ body {
 }
 
 .description__btn {
+  text-transform: uppercase;
   padding: 0.6rem 1.5rem;
   color: inherit;
   background-color: transparent;
   border: 1px solid #cd0056;
   border-radius: 3px;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   transition: color 0.5s, transform 0.2s;
   box-sizing: border-box;
@@ -441,6 +442,16 @@ body {
 .description__img {
   max-width: 23rem;
   max-height: 7rem;
+  display: inline-block;
+  overflow: hidden;
+}
+.description__img img {
+  display: block;
+  transition: 1s;
+}
+.description__img img:hover {
+  transform: scale(1.09);
+  filter: brightness(60%);
 }
 
 .description__text {
@@ -452,8 +463,14 @@ body {
 .description__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  margin: auto;
   grid-gap: 1.5rem;
   list-style-type: none;
+  margin-top: 6em;
+}
+.description__container li {
+  margin: auto;
+  margin-bottom: 3em;
 }
 
 @media screen and (max-width: 768px) {
@@ -462,7 +479,6 @@ body {
   }
 }
 .description__title {
-  margin-bottom: 4rem;
   text-transform: uppercase;
 }
 
@@ -559,7 +575,8 @@ body {
 }
 
 .form-request__btn {
-  padding: 0.5rem 4rem;
+  padding: 1rem 4rem;
+  width: 70%;
   font-size: 14px;
 }
 

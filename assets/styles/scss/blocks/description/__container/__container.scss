@@ -1,8 +1,17 @@
 .description__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  margin: auto;
   grid-gap: 1.5rem;
   list-style-type: none;
+  margin-top: 6em;
+
+  li {
+    margin: auto;
+    margin-bottom: 3em;
+
+  }
+
 }
 
 @media screen and (max-width: $tablet-width) {
