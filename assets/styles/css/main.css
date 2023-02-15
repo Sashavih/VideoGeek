@@ -121,7 +121,7 @@
 hr {
   background-color: #d7d6d6;
   border: none;
-  width: 100%;
+  width: 80%;
   height: 1px;
   margin: auto;
 }
@@ -278,6 +278,7 @@ body {
   border-radius: 3px;
   color: inherit;
   transition: background-color 0.3s linear;
+  cursor: pointer;
 }
 .btn-main:hover {
   background-color: transparent;
@@ -404,6 +405,7 @@ body {
   background-color: transparent;
   border: 1px solid #cd0056;
   border-radius: 3px;
+  font-size: 14px;
   cursor: pointer;
   transition: color 0.5s, transform 0.2s;
   box-sizing: border-box;
@@ -443,7 +445,7 @@ body {
 
 .description__text {
   margin: 1rem 0;
-  font-weight: 14px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -461,6 +463,7 @@ body {
 }
 .description__title {
   margin-bottom: 4rem;
+  text-transform: uppercase;
 }
 
 .description {
@@ -549,6 +552,26 @@ body {
   font-size: 9px;
   font-weight: 300;
   opacity: 50%;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.form-request__btn {
+  padding: 0.5rem 4rem;
+  font-size: 14px;
+}
+
+.form-request__text {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.form-request {
+  padding: 8rem 30rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
