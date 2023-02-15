@@ -3,5 +3,6 @@ $(function () {
     $('#subtitleAnimation').fadeIn(2800);
     $('.avatar').fadeIn(2300);
     $('.mainBlock__btn').fadeIn(3200);
+    $('.header').fadeIn(3200);
 
 })
