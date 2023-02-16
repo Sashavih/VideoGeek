@@ -1,20 +1,43 @@
 .portfolio {
   background-color: $gray;
+  margin-top: 0;
+  border: 1px solid $gray;
+
+  p {
+    margin: 1.5em 0 0 8rem;
+    font-weight: 600;
+  }
 }
 
 .sliderPortfolio {
-  margin-top: 6em;
+  padding: 3em 10em 10em 10em;
+  position: relative;
   height: 55em;
 }
 
 .slider__img {
+  padding-top: 1.5em;
+  padding-left: 3em;
+  box-sizing: border-box;
+  width: 300px;
+  display: inline-block;
+  overflow: hidden;
+
   img {
-    width: 50%;
+    max-width: 30em;
+    height: 17em;
+    display: block;
+    transition: 0.4s;
+
+    &:hover {
+      transform: scale(1.05);
+      filter: brightness(60%);
+    }
   }
 }
 
 .slick-arrow {
-  top: 190%;
+  top: 90%;
   position: absolute;
   z-index: 10;
   font-size: 0;
