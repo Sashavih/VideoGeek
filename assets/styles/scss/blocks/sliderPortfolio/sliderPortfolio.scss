@@ -20,10 +20,9 @@
 
     padding-top: 1.5em;
     padding-left: 3em;
-    box-sizing: border-box;
+
     width: 300px;
-    display: inline-block;
-    overflow: hidden;
+
 
     img {
         max-width: 30em;
@@ -38,6 +37,10 @@
             filter: brightness(60%)
         }
     }
+}
+
+.slider__img1 {
+    background: url('../../img/portfolio/image1.png')0 0 / 100% no-repeat;
 }
 
 
