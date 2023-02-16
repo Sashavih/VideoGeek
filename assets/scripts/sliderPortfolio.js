@@ -1,8 +1,9 @@
 
 $(document).ready(function () {
-    $('.slider').slick({
-        infinite: false,
-        slidesToShow: 4,
+    $('.sliderPortfolio').slick({
+        infinite: true,
+        rows: 3,
+        slidesToShow: 3,
         speed: 600,
         easing: 'ease',
         cssEase: 'ease-in',

@@ -49,6 +49,7 @@
             background: url('../../img/logo/nextHover.svg')0 0 / 100% no-repeat;
 
         }
+
     }
 
     img {
@@ -62,6 +63,10 @@
     }
 }
 
-.slider__item {
-    height: 7em;
+
+.sliderClients {
+    .slider__item {
+        height: 7em;
+
+    }
 }
