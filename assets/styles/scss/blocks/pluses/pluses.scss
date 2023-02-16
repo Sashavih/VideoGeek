@@ -1,0 +1,16 @@
+@import "./plusesBox/plusesBox.scss";
+@import "./plusesBox/__item/plusesBox__item.scss";
+@import "./plusesBox/__item/plusesBox__item1.scss";
+@import "./plusesBox/__item/plusesBox__item2.scss";
+@import "./plusesBox/__item/plusesBox__item3.scss";
+@import "./plusesBox/__item/plusesBox__item4.scss";
+
+.pluses {
+    background-color: $gray;
+    border: 1px solid $gray;
+
+    div {
+        width: 85%;
+        margin: 5em auto 7.5em auto;
+    }
+}
