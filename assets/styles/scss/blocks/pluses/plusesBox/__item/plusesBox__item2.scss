@@ -1,0 +1,15 @@
+.plusesBox__item2 {
+    display: none;
+    transform: translateY(-150%);
+    animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+    0% {
+        transform: translateY(-150%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
