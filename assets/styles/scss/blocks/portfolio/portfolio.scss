@@ -31,21 +31,8 @@
     display: block;
     transition: 0.4s;
 
-    padding-top: 1.5em;
-    padding-left: 3em;
-
-    width: 300px;
-
-    img {
-      max-width: 30em;
-      height: 17em;
-      display: block;
-      transition: 0.4s;
-
-      &:hover {
-        transform: scale(1.05);
-        filter: brightness(60%);
-      }
+    &:hover {
+      filter: brightness(60%);
     }
   }
 }
@@ -106,7 +93,6 @@
 .slider__div-text {
   z-index: 10;
   position: absolute;
-  // text-align: left;
   font-size: 1rem;
   width: 30em;
   height: 17em;

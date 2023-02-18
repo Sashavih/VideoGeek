@@ -626,18 +626,8 @@ body {
   height: 17em;
   display: block;
   transition: 0.4s;
-  padding-top: 1.5em;
-  padding-left: 3em;
-  width: 300px;
 }
-.slider__img img img {
-  max-width: 30em;
-  height: 17em;
-  display: block;
-  transition: 0.4s;
-}
-.slider__img img img:hover {
-  transform: scale(1.05);
+.slider__img img:hover {
   filter: brightness(60%);
 }
 
