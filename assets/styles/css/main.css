@@ -143,31 +143,26 @@ hr {
   }
 }
 .messageAnimation {
-  display: flex;
-  flex-direction: row;
-  margin-left: 90%;
-}
-.messageAnimation .avatar {
-  cursor: pointer;
   display: none;
-  align-self: flex-end;
   position: fixed;
-  width: 60px;
-  height: 60px;
-  box-sizing: border-box;
+  bottom: 7rem;
+  right: 5rem;
+  width: 3rem;
+  height: 3rem;
+  padding: 1rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-image: url("/assets/img/up-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 60%;
+  background-color: #cd0056;
+  cursor: pointer;
   border-radius: 50%;
-  overflow: hidden;
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
   transform: translatey(0px);
   animation: float 4s ease-in-out infinite;
-}
-.messageAnimation .avatar img {
-  width: 100%;
-  height: auto;
-  transition: 0.2s;
-}
-.messageAnimation .avatar img:hover {
-  transform: scale(1.05);
 }
 
 .title {
@@ -271,6 +266,10 @@ body {
   font-family: "RockStar", sans-serif;
   font-size: 12px;
   color: #e5e5e5;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .btn-main {
@@ -802,6 +801,33 @@ body {
 .request2 {
   background-color: #1f1f1f;
   border: 1px solid #1f1f1f;
+}
+
+.footer__title {
+  margin-bottom: 2rem;
+}
+
+.footer__wrapper {
+  margin-bottom: 2rem;
+}
+
+.footer__contacts {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.footer__icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.footer__icon:hover {
+  transform: scale(1.2);
+}
+
+.footer {
+  padding: 2rem 8rem;
 }
 
 /*# sourceMappingURL=main.css.map */
