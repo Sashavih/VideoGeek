@@ -820,11 +820,10 @@ html {
   width: 40px;
   height: 40px;
   margin-right: 0.5rem;
-  fill: white;
   cursor: pointer;
 }
 .footer__icon:hover {
-  fill: #07f2b4;
+  transform: scale(1.2);
 }
 
 .footer {
