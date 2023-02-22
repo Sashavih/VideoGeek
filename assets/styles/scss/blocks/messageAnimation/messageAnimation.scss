@@ -26,7 +26,7 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-image: url("/assets/img/up-button.svg");
+  background-image: url("../../img/up-button.svg");
   background-repeat: no-repeat;
   background-position: center;
   opacity: 60%;
@@ -35,7 +35,9 @@
   border-radius: 50%;
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
   transform: translatey(0px);
-  animation: float 4s ease-in-out infinite;
+  animation: float 3s ease-in-out infinite;
+
+
 
   //   .avatar {
   //     cursor: pointer;
