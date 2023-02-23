@@ -1,11 +1,12 @@
-@import './_border/btn_border.scss';
-@import './btn-form/btn-form.scss';
+@import "./_border/btn_border.scss";
+@import "./btn-form/btn-form.scss";
 
 .btn {
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 1rem 1.5rem;
-    text-transform: uppercase;
-    border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+  text-decoration: none;
 }
