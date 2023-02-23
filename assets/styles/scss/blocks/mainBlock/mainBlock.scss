@@ -2,12 +2,12 @@
 @import "./__btn/mainBlock__btn.scss";
 
 .mainBlock {
-    background: url("../../img/main/mainImg.png") 0 0 / 100% no-repeat;
-    height: 52em;
-    margin-top: 0;
-    background-size: cover;
+  background: url("../../img/main/mainImg.png") 0 0 / 100% no-repeat;
+  height: 85vh;
+  margin-top: 0;
+  background-size: cover;
 
-    .img {
-        filter: brightness(40%);
-    }
+  .img {
+    filter: brightness(40%);
+  }
 }
