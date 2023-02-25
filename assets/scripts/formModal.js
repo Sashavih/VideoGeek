@@ -3,7 +3,7 @@ let modal = $modal({
     <form class="form">
     <input type="text" name="text" class="form__item" placeholder="Ваше Имя" required/>
     <input type="email" name="email" class="form__item" placeholder="E-mail"  required/>
-    <input type="tel" name="tel" class="form__item" id="phone" placeholder="Номер телефона" minlength="11" maxlength="12"required/>
+    <input type="tel" name="tel" class="form__item" id="phone" value="+7" placeholder="Номер телефона" minlength="11" maxlength="12"required/>
 
     <div class="file-upload">
 	<div class="file-upload-select">
@@ -42,4 +42,5 @@ form.addEventListener('submit', function (evt) {
         .catch(error => console.log(error));
 
     alert('Ваша заявка успешно отправлена!');
+    console.log(phone.value);
 });
