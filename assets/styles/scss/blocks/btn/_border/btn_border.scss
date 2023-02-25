@@ -1,38 +1,37 @@
 .btn_border {
-    border: 1px solid $lightGray;
-    transition: color 0.5s, transform 0.2s;
-    box-sizing: border-box;
-    appearance: none;
-    background-color: $dark;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    -webkit-transition: color 100ms ease-in-out;
-    transition: color 100ms ease-in-out;
-    color: $lightGray;
+  border: 1px solid $lightGray;
+  transition: color 0.5s, transform 0.2s;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: $dark;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 100ms ease-in-out;
+  transition: color 100ms ease-in-out;
+  color: $lightGray;
 
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: $purple;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+  }
 
-    &:after {
-        content: '';
-        position: absolute;
-        display: block;
-        top: 0;
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-        width: 0;
-        height: 100%;
-        background: $purple;
-        z-index: -1;
-        -webkit-transition: width 150ms ease-in-out;
-        transition: width 150ms ease-in-out;
-    }
+  &:hover {
+    color: #fff;
+  }
 
-    &:hover {
-        color: #fff;
-    }
-
-    &:hover:after {
-        width: 110%;
-    }
+  &:hover:after {
+    width: 100%;
+  }
 }

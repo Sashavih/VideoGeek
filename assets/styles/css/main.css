@@ -111,7 +111,7 @@
 
 .mainBlock {
   background: url("../../img/main/mainImg.png") 0 0/100% no-repeat;
-  height: 52em;
+  height: 85vh;
   margin-top: 0;
   background-size: cover;
 }
@@ -201,7 +201,7 @@ hr {
   color: #fff;
 }
 .btn_border:hover:after {
-  width: 110%;
+  width: 100%;
 }
 
 .btn-form {
@@ -225,6 +225,7 @@ hr {
   padding: 1rem 1.5rem;
   text-transform: uppercase;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 @font-face {
@@ -363,12 +364,12 @@ textarea:focus:-ms-input-placeholder {
 
 .header__contacts-link {
   color: inherit;
+  font-size: 10px;
   text-decoration: none;
-  padding: 1em;
 }
 
-.header__contacts-item {
-  margin-bottom: 0.8rem;
+.header__contacts-email {
+  margin-bottom: 0.5rem;
 }
 
 .header__btn-container {
@@ -383,9 +384,8 @@ textarea:focus:-ms-input-placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   font-weight: 700;
-  height: 5em;
 }
 
 .studio__text {
