@@ -1,5 +1,5 @@
 ### VIDEO GEEK
-Application for learning English
+Application for videoprodaction.
 
 ![илюстрация к проекту](https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vg.png)
 
