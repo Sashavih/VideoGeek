@@ -1,11 +1,11 @@
 ### VIDEO GEEK
 Application for videoprodaction.
 
-<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vg.png" width="600"/>
+<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vg.png" width="700"/>
 
-<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgvideo.png" width="600"/>
+<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgvideo.png" width="700"/>
 
-<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgmodal.png" width="600"/>
+<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgmodal.png" width="700"/>
 
 
 ### Technologies:
