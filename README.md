@@ -1,11 +1,12 @@
 ### VIDEO GEEK
 Application for videoprodaction.
 
-![илюстрация к проекту](https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vg.png)
+<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vg.png" width="700"/>
 
-![илюстрация к проекту](https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgvideo.png)
+<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgvideo.png" width="700"/>
 
-![илюстрация к проекту](https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgmodal.png)
+<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgmodal.png" width="700"/>
+
 
 ### Technologies:
 <div>
