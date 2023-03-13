@@ -2,7 +2,9 @@
 Application for learning English
 
 ![илюстрация к проекту](https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vg.png)
+
 ![илюстрация к проекту](https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgvideo.png)
+
 ![илюстрация к проекту](https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgmodal.png)
 
 ### Technologies:
