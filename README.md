@@ -1,7 +1,7 @@
 ### VIDEO GEEK
 Application for videoprodaction.
 
-<img src="hhttps://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vg.png" width="800"/>
+<img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vg.png" width="800"/>
 
 <img src="https://github.com/Sashavih/VideoGeek/blob/main/assets/img/main/vgvideo.png" width="800"/>
 
