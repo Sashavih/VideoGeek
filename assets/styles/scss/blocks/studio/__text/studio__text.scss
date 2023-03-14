@@ -1,15 +1,27 @@
 .studio__text {
-    display: flex;
-    flex-direction: row;
-    margin: 4em 8rem 2em 8rem;
+  display: flex;
+  flex-direction: row;
+  margin: 4em 8rem 2em 8rem;
+
+  h2 {
+    width: 40%;
+  }
+
+  p {
+    margin-bottom: 2em;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+  .studio__text {
+    flex-direction: column;
+    margin: 0;
+    padding: 2rem 2rem 2rem 4rem;
 
     h2 {
-        width: 40%;
+      margin-bottom: 2rem;
     }
-
-    p {
-        margin-bottom: 2em;
-        font-size: 14px;
-        font-weight: 500;
-    }
-}
+  }
+} ;

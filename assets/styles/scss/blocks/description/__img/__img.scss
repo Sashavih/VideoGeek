@@ -4,16 +4,19 @@
   display: inline-block;
   overflow: hidden;
 
-
   img {
     display: block;
     transition: 1s;
 
-
     &:hover {
-
       transform: scale(1.09);
-      filter: brightness(60%)
+      filter: brightness(60%);
     }
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+  .description__img {
+    max-width: 18rem;
   }
 }

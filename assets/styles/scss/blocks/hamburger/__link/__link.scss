@@ -1,0 +1,14 @@
+.hamburger__link {
+  padding: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    border-bottom: 1px solid $green;
+  }
+
+  &:focus {
+    border-bottom: 1px solid $purple;
+  }
+}
