@@ -1,8 +1,14 @@
 .mainBlock__btn {
-    margin-top: 2.3em;
-    width: 85%;
+  margin-top: 2.3em;
+  width: 85%;
 
-    .btnMargin {
-        margin-left: 4%;
-    }
+  .btnMargin {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+  .mainBlock__btn {
+    display: block;
+  }
 }

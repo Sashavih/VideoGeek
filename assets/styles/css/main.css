@@ -53,12 +53,34 @@
   height: 7em;
 }
 
+@media screen and (max-width: 810px) {
+  .slider {
+    padding: 0 5rem;
+  }
+  .slider .slick-arrow {
+    width: 30px;
+    height: 30px;
+  }
+  .slider img {
+    max-width: 10em;
+    padding: 0 3em;
+  }
+}
 .partners {
   margin-top: 0;
   height: 30em;
   background-color: #1f1f1f;
 }
 
+@media screen and (max-width: 810px) {
+  .partners {
+    padding: 5rem 0;
+    height: auto;
+  }
+  .partners__title {
+    margin-left: 3rem;
+  }
+}
 .subtitle_margin {
   margin: 2em 0 0 8rem;
 }
@@ -84,6 +106,12 @@
     transform: translateY(0);
   }
 }
+@media screen and (max-width: 810px) {
+  .fadeAnimation {
+    transform: none;
+    animation: none;
+  }
+}
 .none {
   display: none;
 }
@@ -101,6 +129,12 @@
   font-size: 14px;
 }
 
+@media screen and (max-width: 810px) {
+  .mainBlock__box {
+    width: 70%;
+    margin-left: 2rem;
+  }
+}
 .mainBlock__btn {
   margin-top: 2.3em;
   width: 85%;
@@ -109,6 +143,11 @@
   margin-left: 4%;
 }
 
+@media screen and (max-width: 810px) {
+  .mainBlock__btn {
+    display: block;
+  }
+}
 .mainBlock {
   background: url("../../img/main/mainImg.png") 0 0/100% no-repeat;
   height: 85vh;
@@ -169,6 +208,11 @@ hr {
   font-size: 28px;
 }
 
+@media screen and (max-width: 810px) {
+  .title {
+    font-size: 24px;
+  }
+}
 .btn_border {
   border: 1px solid #e5e5e5;
   transition: color 0.5s, transform 0.2s;
@@ -407,7 +451,7 @@ textarea:focus:-ms-input-placeholder {
   font-weight: 500;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 810px) {
   .studio__text {
     flex-direction: column;
     margin: 0;
@@ -446,6 +490,12 @@ textarea:focus:-ms-input-placeholder {
   grid-column: 7/span 2;
 }
 
+@media screen and (max-width: 810px) {
+  .studio__gallery {
+    margin-left: 0;
+    grid-template-columns: 0;
+  }
+}
 .studio {
   background: url("../../img/main/laptop.jpg") 0 35% no-repeat;
   background-size: 17%;
@@ -638,6 +688,11 @@ textarea:focus:-ms-input-placeholder {
   display: none;
 }
 
+@media screen and (max-width: 810px) {
+  .modal__content {
+    width: 70%;
+  }
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -944,6 +999,7 @@ textarea:focus:-ms-input-placeholder {
   }
 }
 .hamburger-btn {
+  display: none;
   width: 2rem;
   height: 2rem;
   position: relative;

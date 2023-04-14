@@ -61,3 +61,18 @@
     height: 7em;
   }
 }
+
+@media screen and (max-width: 810px) {
+  .slider {
+    padding: 0 5rem;
+  }
+  .slider .slick-arrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider img {
+    max-width: 10em;
+    padding: 0 3em;
+  }
+}

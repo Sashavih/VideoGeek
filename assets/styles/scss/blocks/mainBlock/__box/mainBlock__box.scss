@@ -1,13 +1,20 @@
 .mainBlock__box {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 40%;
-    height: 85%;
-    margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
+  height: 85%;
+  margin-left: 5rem;
 
-    h2 {
-        margin-top: 0.7em;
-        font-size: 14px;
-    }
+  h2 {
+    margin-top: 0.7em;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+  .mainBlock__box {
+    width: 70%;
+    margin-left: 2rem;
+  }
 }
