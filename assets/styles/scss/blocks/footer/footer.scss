@@ -6,3 +6,9 @@
 .footer {
   padding: 2rem 8rem;
 }
+
+@media screen and (max-width: $mobile-width) {
+  .footer {
+    padding: 3.5rem 3rem;
+  }
+}

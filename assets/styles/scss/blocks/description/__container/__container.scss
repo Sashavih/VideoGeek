@@ -9,13 +9,12 @@
   li {
     margin: auto;
     margin-bottom: 3em;
-
   }
-
 }
 
 @media screen and (max-width: $tablet-width) {
   .description__container {
+    grid-template-columns: none;
     grid-gap: 0.5rem;
   }
 }

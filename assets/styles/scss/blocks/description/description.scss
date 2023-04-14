@@ -7,5 +7,10 @@
 
 .description {
   padding: 5rem 8rem;
+}
 
+@media screen and (max-width: $mobile-width) {
+  .description {
+    padding: 3rem 2rem;
+  }
 }

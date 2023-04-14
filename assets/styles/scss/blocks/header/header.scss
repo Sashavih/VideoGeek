@@ -8,11 +8,15 @@
 @import "./__container/_container";
 
 .header {
-  // position: fixed;
-  // width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 2rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: $tablet-width) {
+  .header__container {
+    display: none;
+  }
 }

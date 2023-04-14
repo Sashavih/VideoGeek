@@ -2,6 +2,12 @@
 @import "./__text/_text";
 
 .form-request {
-  margin: 8em auto 8em auto;
+  margin: 8em auto;
   text-align: center;
+}
+
+@media screen and (max-width: $mobile-width) {
+  .form-request {
+    margin: 8em 2rem;
+  }
 }

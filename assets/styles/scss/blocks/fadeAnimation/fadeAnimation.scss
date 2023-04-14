@@ -1,15 +1,22 @@
 .fadeAnimation {
-    display: none;
-    transform: translateY(-150%);
-    animation: ani 1s forwards;
+  display: none;
+  transform: translateY(-150%);
+  animation: ani 1s forwards;
 }
 
 @keyframes ani {
-    0% {
-        transform: translateY(-150%);
-    }
+  0% {
+    transform: translateY(-150%);
+  }
 
-    100% {
-        transform: translateY(0);
-    }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+  .fadeAnimation {
+    transform: none;
+    animation: none;
+  }
 }

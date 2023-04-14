@@ -1,5 +1,15 @@
 .partners {
-    margin-top: 0;
-    height: 30em;
-    background-color: #1f1f1f;
+  margin-top: 0;
+  height: 30em;
+  background-color: #1f1f1f;
+}
+
+@media screen and (max-width: 810px) {
+  .partners {
+    padding: 5rem 0;
+    height: auto;
+  }
+  .partners__title {
+    margin-left: 3rem;
+  }
 }
