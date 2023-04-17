@@ -18,3 +18,12 @@
     margin-left: 2rem;
   }
 }
+
+@media screen and (max-width: $mobile-width) {
+  .mainBlock__box {
+    gap: 2rem;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+  }
+}

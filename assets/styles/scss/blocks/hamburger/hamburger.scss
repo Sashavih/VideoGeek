@@ -20,3 +20,14 @@
 .hamburger.active {
   transform: translateX(0);
 }
+
+.hamburger__button_none {
+  display: none;
+}
+
+@media screen and (max-width: $mobile-width) {
+  .hamburger__button_none {
+    display: block;
+
+  }
+}

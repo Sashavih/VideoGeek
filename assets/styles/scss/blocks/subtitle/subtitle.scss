@@ -6,3 +6,10 @@
     color: $lightGray;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: $mobile-width) {
+    .subtitle_mob {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

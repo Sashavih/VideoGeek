@@ -16,3 +16,9 @@
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: $mobile-width) {
+  .mainBlock {
+    height: 63vh;
+  }
+}

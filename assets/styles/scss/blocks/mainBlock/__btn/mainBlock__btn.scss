@@ -12,3 +12,9 @@
     display: block;
   }
 }
+
+@media screen and (max-width: $mobile-width) {
+  .mainBlock__btn {
+    display: none !important;
+  }
+}
