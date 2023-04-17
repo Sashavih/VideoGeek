@@ -536,12 +536,36 @@ textarea:focus:-ms-input-placeholder {
     grid-template-columns: 0;
   }
 }
+@media screen and (max-width: 480px) {
+  .studio__gallery {
+    display: block;
+  }
+  .studio__item1 {
+    display: none;
+  }
+  .studio__item2 {
+    display: none;
+  }
+  .studio__item3 {
+    display: block;
+    max-width: 60%;
+    margin: auto;
+  }
+  .studio__item4 {
+    display: none;
+  }
+}
 .studio {
   background: url("../../img/main/laptop.jpg") 0 35% no-repeat;
   background-size: 17%;
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 480px) {
+  .studio {
+    background: none;
+  }
+}
 .description__btn {
   text-transform: uppercase;
   font-weight: 600;
