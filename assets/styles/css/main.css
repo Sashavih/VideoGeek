@@ -784,6 +784,19 @@ textarea:focus:-ms-input-placeholder {
   opacity: 50%;
 }
 
+@media screen and (max-width: 480px) {
+  .modal__content {
+    width: 90%;
+  }
+  .form {
+    font-size: 12px;
+  }
+  .form .form__item {
+    width: 70%;
+    padding: 1em;
+    margin: 0.7em auto;
+  }
+}
 .visually-hidden {
   display: none;
 }
@@ -845,6 +858,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .slick-arrow {
+  cursor: pointer;
   top: 90%;
   position: absolute;
   z-index: 10;

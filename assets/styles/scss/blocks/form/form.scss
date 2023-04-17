@@ -27,3 +27,22 @@
         opacity: 50%;
     }
 }
+
+@media screen and (max-width: $mobile-width) {
+    .modal__content {
+
+        width: 90%;
+    }
+
+    .form {
+        font-size: 12px;
+
+        .form__item {
+            width: 70%;
+            padding: 1em;
+            margin: 0.7em auto;
+        }
+
+
+    }
+}
