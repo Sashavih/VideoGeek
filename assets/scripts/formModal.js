@@ -15,14 +15,12 @@ let modal = $modal({
     <button type="submit" class="btn btn-form">отправить</button>
     <p>Нажимая кнопку «Отправить», вы даете согласие с нашей Политикой обработки персональных данных</p>
 </form>`,
-
-
 });
 
-document.addEventListener('click', function (e) {
-    if (e.target.dataset.toggle === 'modal') {
-        modal.show();
-    }
+document.addEventListener("click", function (e) {
+  if (e.target.dataset.toggle === "modal") {
+    modal.show();
+  }
 });
 let form = document.querySelector('.form');
 

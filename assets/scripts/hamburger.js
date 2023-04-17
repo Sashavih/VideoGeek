@@ -4,9 +4,17 @@ $(function () {
   });
 });
 
-let hamgurgerBtn = document.querySelector(".hamburger-btn");
+let hamburgerBtn = document.querySelector(".hamburger-btn");
 let menu = document.querySelector(".hamburger");
+let links = document.querySelectorAll(".hamburger__link");
 
-hamgurgerBtn.addEventListener("click", () => {
+hamburgerBtn.addEventListener("click", () => {
   menu.classList.toggle("active");
+});
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    menu.classList.toggle("active");
+    hamburgerBtn.classList.remove("open");
+  });
 });
