@@ -38,3 +38,27 @@
     grid-template-columns: 0;
   }
 }
+
+@media screen and (max-width: $mobile-width) {
+  .studio__gallery {
+    display: block;
+  }
+
+  .studio__item1 {
+    display: none;
+  }
+
+  .studio__item2 {
+    display: none;
+  }
+
+  .studio__item3 {
+    display: block;
+    max-width: 60%;
+    margin: auto;
+  }
+
+  .studio__item4 {
+    display: none;
+  }
+}

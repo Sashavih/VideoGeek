@@ -37,6 +37,7 @@
 }
 
 .slick-arrow {
+  cursor: pointer;
   top: 90%;
   position: absolute;
   z-index: 10;
@@ -107,4 +108,21 @@
 
 .tube {
   color: $lightGray;
+}
+
+@media screen and (max-width: $mobile-width) {
+  .portfolio {
+    p {
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  .slick-next {
+    right: 35%;
+  }
+
+  .slick-prev {
+    left: 35%;
+  }
 }

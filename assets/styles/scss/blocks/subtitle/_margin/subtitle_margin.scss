@@ -1,8 +1,10 @@
 .subtitle_margin {
   margin: 2em 0 0 8rem;
 }
-// @media screen and (max-width: 810px) {
-//   .subtitle_margin {
-//     margin: 4rem;
-//   }
-// }
+
+@media screen and (max-width: $mobile-width) {
+  .subtitle_margin {
+    margin: 2rem auto;
+    text-align: center;
+  }
+}

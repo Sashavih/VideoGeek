@@ -8,3 +8,9 @@
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: $mobile-width) {
+  .title {
+    font-size: 20px;
+  }
+}
