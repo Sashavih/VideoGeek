@@ -1,7 +1,12 @@
 .partners {
+  padding: 5rem 8rem 0 5rem;
   margin-top: 0;
   height: 30em;
   background-color: #1f1f1f;
+}
+
+.partners__title {
+  margin-left: 3rem;
 }
 
 @media screen and (max-width: 810px) {

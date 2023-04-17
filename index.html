@@ -400,10 +400,12 @@
             </ul>
 
         </div>
+        <hr />
     </section>
     <!--клиенты-->
-    <hr />
+
     <article class="partners">
+
         <h2 class="subtitle margin partners__title">НАШИ КЛИЕНТЫ</h2>
         <div class="wrapper">
             <div class="sliderClients slider">
@@ -448,8 +450,29 @@
         </div>
     </section>
 
+    <!-- form -->
+    <div class="form-container">
+        <h2 class="subtitle ">отправить тз</h2>
+        <form class="form" id="connection" enctype="multipart/form-data" action="scripts/sendmail.php" method="POST">
+            <input type="text" name="text" class="form__item" placeholder="Ваше Имя" required />
+            <input type="email" name="email" class="form__item" placeholder="E-mail" required />
+            <input type="tel" name="tel" class="form__item" id="phone" value="+7" placeholder="Номер телефона"
+                minlength="11" maxlength="12" required />
 
-    <!--футур -->
+            <div class="file-upload">
+                <div class="file-upload-select">
+                    <div class="file-select-button btn btn-form">Выберите файл</div>
+                    <div class="file-select-name">Файл не выбран...</div>
+                    <input type="file" name="file-upload-input" id="file-upload-input">
+                </div>
+            </div>
+            <textarea rows="5" class="form__item" name="comment" placeholder="Комментарий"></textarea>
+            <button type="submit" class="btn btn-form">отправить</button>
+            <p>Нажимая кнопку «Отправить», вы даете согласие с нашей Политикой обработки персональных данных</p>
+        </form>
+    </div>
+
+    <!--футер -->
     <footer class="footer" id="contacts">
         <h2 class="footer__title subtitle">Контакты</h2>
         <div class="footer__wrapper">
