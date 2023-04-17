@@ -16,7 +16,7 @@
   background-color: $gray;
   transform: translateX(-100%);
   transition: transform 0.5s;
-  z-index: 1;
+  overflow: hidden;
 }
 
 .hamburger.active {

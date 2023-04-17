@@ -939,6 +939,12 @@ textarea:focus:-ms-input-placeholder {
     margin: 0;
     text-align: center;
   }
+  .sliderPortfolio {
+    padding: 3em 2rem 10em 2rem;
+  }
+  .slider__img {
+    padding-left: 0;
+  }
   .slick-next {
     right: 35%;
   }
@@ -1194,6 +1200,7 @@ textarea:focus:-ms-input-placeholder {
 
 .hamburger {
   position: fixed;
+  display: block;
   top: 0;
   left: 0;
   width: 100%;
@@ -1202,6 +1209,7 @@ textarea:focus:-ms-input-placeholder {
   background-color: #1f1f1f;
   transform: translateX(-100%);
   transition: transform 0.5s;
+  overflow: hidden;
 }
 
 .hamburger.active {
