@@ -10,11 +10,13 @@ let links = document.querySelectorAll(".hamburger__link");
 
 hamburgerBtn.addEventListener("click", () => {
   menu.classList.toggle("active");
+  document.body.classList.toggle("stop-scroll");
 });
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
     menu.classList.toggle("active");
     hamburgerBtn.classList.remove("open");
+    document.body.classList.remove("stop-scroll");
   });
 });
