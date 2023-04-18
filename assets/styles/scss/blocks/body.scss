@@ -10,6 +10,10 @@ body {
   color: $lightGray;
 }
 
+.stop-scroll {
+  overflow: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
