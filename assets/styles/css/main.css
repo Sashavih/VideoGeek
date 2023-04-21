@@ -196,6 +196,7 @@
 @media screen and (max-width: 480px) {
   .mainBlock {
     height: 63vh;
+    background: url("../../img/main/lensmob.jpg") 0 0/100% no-repeat;
   }
 }
 hr {
@@ -557,7 +558,7 @@ textarea:focus:-ms-input-placeholder {
   }
   .studio__item3 {
     display: block;
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
   }
   .studio__item4 {
@@ -593,6 +594,7 @@ textarea:focus:-ms-input-placeholder {
   z-index: 1;
   -webkit-transition: color 100ms ease-in-out;
   transition: color 100ms ease-in-out;
+  text-decoration: none;
 }
 .description__btn:after {
   content: "";
@@ -950,10 +952,10 @@ textarea:focus:-ms-input-placeholder {
     padding-left: 0;
   }
   .slick-next {
-    right: 35%;
+    right: 20%;
   }
   .slick-prev {
-    left: 35%;
+    left: 20%;
   }
 }
 .plusesBox__subtitle {
@@ -1076,6 +1078,9 @@ textarea:focus:-ms-input-placeholder {
 
 .footer__wrapper {
   margin-bottom: 2rem;
+}
+.footer__wrapper li {
+  margin-top: 0.5rem;
 }
 
 .footer__contacts {

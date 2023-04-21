@@ -18,26 +18,26 @@ let modal = $modal({
 });
 
 document.addEventListener("click", function (e) {
-  if (e.target.dataset.toggle === "modal") {
-    modal.show();
-  }
+    if (e.target.dataset.toggle === "modal") {
+        modal.show();
+    }
 });
 let form = document.querySelector('.form');
 
 form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    fetch('sendmail.php', {
-        method: 'POST',
-        body: new FormData(form)
-    })
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            alert('Ваша заявка успешно отправлена!');
-            modal.hide();
+    /*e.preventDefault();
+fetch('sendmail.php', {
+      method: 'POST',
+      body: new FormData(form)
+  })
+      .then(response => response.json())
+      .then(data => {
+          console.log(data);
+          alert('Ваша заявка успешно отправлена!');
+          modal.hide();
 
-        })
-        .catch(error => alert('Ошибка!'));
+      })
+      .catch(error => alert('Ошибка!'));*/
 
 
 
