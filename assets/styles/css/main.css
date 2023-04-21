@@ -566,12 +566,12 @@ textarea:focus:-ms-input-placeholder {
   }
 }
 .studio {
-  background: url("../../img/main/laptop.jpg") 0 35% no-repeat;
+  background: url("../../img/main/background.png") 0 35% no-repeat;
   background-size: 17%;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 810px) {
   .studio {
     background: none;
   }
